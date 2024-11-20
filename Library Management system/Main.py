@@ -11,7 +11,7 @@ while True:
     print("Enter 2 for Update Book!")
     print("Enter 3 for Delete Book!")
     print("Enter 4 for View Recent Added Book!")
-    print("Enter 5 for View All Books!")
+    print("Enter 5 for Display All Books!")
     print("Enter 6 for Exit!")
 
     choice = int(input("Enter your Choice: "))
