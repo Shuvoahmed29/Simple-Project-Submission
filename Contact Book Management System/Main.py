@@ -2,13 +2,15 @@ import Add_Contacts as add
 import View_Contacts as view
 import Remove_Contact as delete
 import Search_Contacts as search
+import Update_Contacts as update
 
 while True:
     print("\nPress 1 for add contact!")
     print("Press 2 for view all contacts!")
     print("Press 3 for remove contact!")
     print("Press 4 for search contact!")
-    print("Press 5 for exist!\n")
+    print("Press 5 for update contact information!")
+    print("Press 6 for exist!\n")
 
     choice = input("Enter your choice: ")
 
@@ -28,8 +30,10 @@ while True:
         search.Search_Contacts()
     
     elif choice == '5':
-        break
+        update.Update_Info()
 
+    elif choice=='6':
+        break
 
     else:
         print("\nInvalid Input. Try Again!\n")
